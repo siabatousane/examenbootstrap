@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-link{
+    background-color: white;
+}
+.nav-link img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.text{
+    background-image: url('image/background.png');
+}
+.prem{
+   height: 350px; 
+}
+
+
+
+
+@media screen and (max-width: 991px){
+    .navbar-nav{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .nav-link{
+        background-color: transparent;
+        color: white;
+    }
+}
